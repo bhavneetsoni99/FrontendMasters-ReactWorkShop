@@ -1,0 +1,22 @@
+{
+    "name": "adopt-me",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "format": "prettier --write \"src/**/* {js, jsx}\"",
+        "format:check": "prettier --list-differet \"src/**/* {js, jsx}\"",
+        "dev": "parcel src/index.html",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "parcel-bundler": "^1.12.1",
+        "prettier": "^1.16.4"
+    },
+    "dependencies": {
+        "react": "^16.8.4",
+        "react-dom": "^16.8.4"
+    }
+}
